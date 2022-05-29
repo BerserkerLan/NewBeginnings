@@ -5,7 +5,7 @@ import java.util.*
 data class Participant(
     val name: String,
     val dateOfBirth: Date,
-    val phoneNumber: String,
-    val address: Address,
+    var phoneNumber: String,
+    var address: Address,
     var referenceNumber: String?
 )
